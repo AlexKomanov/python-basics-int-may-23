@@ -1,4 +1,4 @@
-a = 10
+a = 10  # it is a variable with a name 'a'
 print(a)
 print(type(a))
 
@@ -18,5 +18,19 @@ print(type(a))
 # 1. "Alex"  ->  2. a ->  3. a = "Alex"
 
 
+my_list = [1, "alex", 2, "bla bla"]
+print(my_list)
+print(type(my_list))
 
+print(type("Alex"))
 
+my_name = '''
+print("Alexander Komanov")
+print(35)
+'''   # It is NOT a comment! It is a string
+
+print(my_name)
+
+"""
+Text
+"""
