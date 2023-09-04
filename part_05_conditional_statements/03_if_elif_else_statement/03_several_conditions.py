@@ -12,7 +12,9 @@ language = input("Enter your language: ")
 
 
 if experience >= 2:
-    if language == "Java" or language == "JavaScript" or language == "Python":
+    if language == "Java" or language == "JavaScript":
+        print("You're matching a job!")
+    elif language == "Python":
         print("You're matching a job!")
     else:
         print("Not required languages")
