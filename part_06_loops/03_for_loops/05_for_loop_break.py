@@ -4,3 +4,5 @@ for x in my_list:
     print(x)
     if x == 40:
         break
+
+print("After a loop...")
