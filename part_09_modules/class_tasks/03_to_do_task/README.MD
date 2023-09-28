@@ -2,6 +2,11 @@
 
 Welcome to the Task Manager! This simple Python program helps you manage your tasks effectively. Follow the steps below to get started:
 
+## Instructions
+Follow these steps to build and use the Tasks Manager.
+
+### Step 1: Create `calculator_module.py`
+
 ## Getting Started
 
 1. **Download the Files:**
