@@ -10,3 +10,5 @@ game_questions = {
     "Who painted the Mona Lisa?": "Leonardo da Vinci",
     "What is the smallest prime number?": "2",
 }
+
+# print(list(game_questions.items()))
