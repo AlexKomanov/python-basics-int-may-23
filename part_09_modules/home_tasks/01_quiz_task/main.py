@@ -13,7 +13,8 @@ while wrong_answers_counter < 3:
     if user_answer.lower() == "quit":
         break
 
-    if user_answer.lower() == answer.lower():
+    if check_answer(question, user_answer):
+        print("Correct! You earned a point.")
         user_score += 1
     else:
         print("Incorrect. The correct answer is:", answer)
