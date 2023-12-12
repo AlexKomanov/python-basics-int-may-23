@@ -1,9 +1,10 @@
 import json
 
 str_json = """
-
 {
     "page": 2,
+    "isValid": true,
+    "author": "Alex",
     "per_page": 6,
     "total": 12,
     "total_pages": 2,
@@ -61,11 +62,24 @@ str_json = """
 print(type(str_json))
 
 data = json.loads(str_json)
-
 print(type(data))
 print(data["per_page"])
 print(type(data["per_page"]))
+print(data["isValid"])
+print(type(data["isValid"]))
+print(data["author"])
+print(type(data["author"]))
 print(data["total"])
 print(type(data["data"]))
-# for item in data["data"]:
-#     print(item)
+
+my_list = data["data"]
+
+for item in my_list:
+    print(item)
+
+
+
+# data[objects][5][cities]["Jerusalem"]["Important_People"]["age"]
+# len(data[objects][5][cities]["Jerusalem"]["Important_People"]["age"])
+# for age in data[objects][5][cities]["Jerusalem"]["Important_People"]["age"]:
+
