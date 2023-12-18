@@ -27,7 +27,7 @@ class Barbarian(Human):
         self.damage = damage
 
 
-class Person(Human):
+class MyPersonalException(Exception):
     pass
 
 
