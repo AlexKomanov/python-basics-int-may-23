@@ -30,19 +30,19 @@ class Airplane(Vehicle):
         print(f"I'm a plane {self.vehicle_brand} {self.plane_id} and I want to fly!")
 
 
-vehicle = Vehicle("General", 2020)
+vehicle = Vehicle("General" )
 
 # vehicle.drive()
 
 car = Car("Tesla", 2023)
 
-# car.drive()
+car.drive()
 
 plane = Airplane("Boeing", 1974, "23434-ffgf-3434")
 
 # plane.drive()
 
-vehicles = [vehicle, car, plane]
-
-for item in vehicles:
-    item.print_the_info()  # Polymorphism
+# vehicles = [vehicle, car, plane]
+#
+# for item in vehicles:
+#     item.print_the_info()  # Polymorphism
