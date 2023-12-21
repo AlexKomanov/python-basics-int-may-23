@@ -1,7 +1,11 @@
+class MyCustomException(Exception):
+    pass
+
 x = 2
 try:
     if not type(x) is str:
-        raise TypeError("Only string is allowed!")
+        # raise TypeError("Only string is allowed!")
+        raise MyCustomException("Only string is allowed!")
 except NameError:
     print("A NameError is occurred.")
 except Exception as error:
