@@ -2,7 +2,6 @@ import flet as ft
 
 
 def main(page: ft.Page):
-
     def button_clicked(event: ft.ControlEvent):
         # print(event.__repr__())
         # print(event.control.text)
