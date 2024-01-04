@@ -3,9 +3,12 @@ import logging
 from aiogram import Bot
 from aiogram import Dispatcher
 from aiogram import types
+import os
+from dotenv import load_dotenv
 
-BOT_TOKEN = "6373447736:AAGMss0q40fPAHjXU8EPL5p8QTF1Z5bCf0c"
-bot = Bot(token=BOT_TOKEN)
+load_dotenv()
+
+bot = Bot(token=os.getenv("BOT_TOKEN"))
 dp = Dispatcher()
 
 
